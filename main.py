@@ -191,7 +191,7 @@ def copy_values(src_ws: Worksheet, dst_ws: Worksheet,
                 dst_row: int, dst_col: int) -> Tuple[int, int]:
     min_c, min_r, max_c, max_r = src_bounds
     width = max_c - min_c + 1
-    height = max_r - min_r + 1
+    height = max_r - min_r + 1  # new comment
     log_debug(f"[calc] copy_values bounds=({min_c},{min_r})..({max_c},{max_r}) -> width={width}, height={height}, paste_to=({dst_col},{dst_row})")
 
     for r_off in range(height):
