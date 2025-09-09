@@ -406,4 +406,3 @@ This project is provided as is. You may adapt it for your own workflows. If you 
 
 ---
 
-If you want this as a `README.md` file, say so and I will generate a markdown file that you can drop in your project folder.
